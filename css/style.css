@@ -1,0 +1,263 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* open-sans-regular - latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/open-sans-v26-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/open-sans-v26-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /*___________________________________________________ШРИФТЫ_________________*/
+  *{ 
+    font-family: 'Open sans';
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;  
+    color: #F7F7F7;  
+    font-style: normal;
+    font-weight: normal;
+  }
+  *, *::before, *::after{
+    box-sizing: inherit;
+}
+header,body,.footer {
+    width: 1440px; 
+}
+.wild, .wild0, #button0, #button1, .last, input {
+    font-family: 'roboto';
+}
+/*__________________________________________________________________*/
+/* HEADER START*/
+.header { 
+    position:absolute;
+    height: 780px;
+    background: url(C:/Users/User/Desktop/FOX/img/fox.png) no-repeat center ;  /*ЛИСА*/
+    background-size: cover;
+}
+.logo {
+    margin-right: 20px
+}
+.menu {
+    font-size: 23px;
+    align-items:center ;                              /*ШАПКА*/
+    display: flex;
+    margin-left: 120px;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+.wild {
+    margin-right:480px ;
+    font-size: 32px;
+    }
+.list_element {
+    margin-right: 65px;
+}
+/*_______________________________________________________________________________*/
+.last {
+        margin-right: 0px;
+        border: 2px solid #CD6326 ;
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 23px;
+        margin-right: 0px;                         /*КНОПКА SIGN IN*/
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+}
+.last:visited {
+    background-color: #8F5613;
+    border-color: #8F5613;
+}
+.last:hover {
+    background-color: #CD6326;
+    border-color:#CD6326 ;
+}
+
+
+/* ___________________________________________________________________________*/
+
+main {
+    display: block;
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 120px;
+    max-width: 274px;
+    height: 340px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;                        /* БЛОК MAIN*/
+    align-content: stretch;
+}
+h1 { 
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+p {
+    width: 274px;
+    font-size: 18px;
+    color: #F7F7F7;
+}
+/*_______________________________________________________________________________*/
+#button0, #button1 {
+        margin-right: 0px;
+        background-color: #CD6326;
+        width: 120px;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 23px;
+        margin-right: 0px;                         /* ДВЕ КНОПКИ */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+}
+#button0:visited {
+    background-color: #8F5613;
+}
+#button0:hover {
+    background-color: #E39128;
+}
+#button1:visited {
+    background-color: #8F5613;
+}
+#button1:hover {
+    background-color: #E39128;
+}
+/*________________________________HEADER END____________________________________*/
+
+/* CENTER START*/
+.center {
+    padding-top: 780px;
+    height: 1368px;
+    background-color: #CCCCCC;                          /* СЕРЫЙ ФОН*/
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+h2 {
+    position: absolute;
+    margin-top: 120px;
+    font-size: 48px;
+    color: #333333;
+    display: flex;                                               /* ТЕКСТ */
+    text-align: center;
+}
+sh {
+    position: absolute;
+    padding-top: 200px;
+    font-size: 24px;
+    color: #666666;
+    display: inline;
+    text-align: center
+    }
+/*_______________________________________________________________________________*/
+.cards {
+    padding-top: 368px;
+    position: relative;
+    display: flex;
+    align-items:center;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+#card0, #card1, #card2 {
+    display: inline-block;                  /*БЛОК ИЗ 3 ИЗОБРАЖЕНИЙ*/
+    width: 300px;
+    height: 360px;
+    text-align: center;
+}
+.card {
+    margin-right: 60px;
+}
+#card0 {
+    background-image: url(C:/Users/User/Desktop/FOX/img/Deer.png);
+}
+#card1 {
+    background-image: url(C:/Users/User/Desktop/FOX/img/squir.png);
+}
+#card2 {
+    background-image: url(C:/Users/User/Desktop/FOX/img/bird.png);
+}
+.animal, .descr {
+    display: inline-block;
+    text-align: center;
+    justify-items:end;
+}
+.animal {
+    margin-top: 247px;
+    font-size: 22px;
+}
+.descr {
+    padding-top: 10px;
+    font-size: 17px;
+}
+    
+/*_______________________________________________________________________________*/
+
+h3 {
+    position:absolute;
+    padding-top: 967px;
+    font-size: 27px;
+    color: #333333;
+}
+input {
+    background-color: #CCCCCC;
+    left: 390px;
+    margin-top: 1069px;
+    width: 540px;
+    position:absolute;                                 /*ПОЛЕ ВВОДА*/
+    display: flex;
+    height: 56px;
+    color: #666666;
+    text-align:left;
+    font-size: 23px;
+}
+#button1 {
+    position: absolute;
+    margin-top: 1069px;
+    left: 930px;
+    height: 60px;
+}
+/*_________________________________CENTER END____________________________________*/
+
+/* FOOTER START*/
+.footer {
+    display: flex;
+    position: absolute;
+    height:360px ;
+    background-image: url(C:/Users/User/Desktop/FOX/img/footer.png);
+    font-size: 23px;
+    align-items:center ; 
+    justify-content: center;    
+}
+.footer_wrap {
+    width: 1200px;
+    margin-left: 120px;
+    margin-right: 120px;
+    display: flex;
+    font-size: 23px;
+    align-items:center ;  
+}
+.list_element0 {
+    margin-right: 85px;
+}
+.wild0 {
+    font-size: 32px;
+    margin-right: 120px;
+}
+#learn {
+    margin-right: 120px;
+}
+/*_________________________________FOOTER END____________________________________*/
