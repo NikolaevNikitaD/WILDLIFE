@@ -40,7 +40,8 @@ header,body,.footer {
 .header { 
     position:absolute;
     height: 780px;
-    background: url(C:/Users/User/Desktop/FOX/img/fox.png) no-repeat center ;  /*ЛИСА*/
+    /* background: url(C:/Users/User/Desktop/FOX/img/fox.png) no-repeat center ;  ЛИСА */
+    background: url(../img/fox.png) no-repeat center ;  /*ЛИСА*/   /*Аня: никогда не пишем полный путь*/
     background-size: cover;
 }
 .logo {
@@ -182,13 +183,13 @@ sh {
     margin-right: 60px;
 }
 #card0 {
-    background-image: url(C:/Users/User/Desktop/FOX/img/Deer.png);
+    background-image: url(../img/Deer.png);
 }
 #card1 {
-    background-image: url(C:/Users/User/Desktop/FOX/img/squir.png);
+    background-image: url(../img/squir.png);
 }
 #card2 {
-    background-image: url(C:/Users/User/Desktop/FOX/img/bird.png);
+    background-image: url(../img/bird.png);
 }
 .animal, .descr {
     display: inline-block;
@@ -237,7 +238,7 @@ input {
     display: flex;
     position: absolute;
     height:360px ;
-    background-image: url(C:/Users/User/Desktop/FOX/img/footer.png);
+    background-image: url(../img/footer.png);
     font-size: 23px;
     align-items:center ; 
     justify-content: center;    
