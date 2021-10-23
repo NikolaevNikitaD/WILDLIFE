@@ -215,7 +215,7 @@ h3 {
 }
 input {
     background-color: #CCCCCC;
-    left: 390px;
+    left: 389px;
     margin-top: 1069px;
     width: 540px;
     position:absolute;                                 /*ПОЛЕ ВВОДА*/
@@ -230,6 +230,7 @@ input {
     margin-top: 1069px;
     left: 930px;
     height: 60px;
+    border-radius: 0;
 }
 /*_________________________________CENTER END____________________________________*/
 
